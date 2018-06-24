@@ -1,23 +1,24 @@
-#	Meshee概述
+#	Meshee Overview
+Meshee is communications middleware that can cross operating systems. Meshee can be applied in the following scenarios：1) Large-coverage high-speed ad-hoc self-organizing networking scenarios; 2) scnearios where cellular data plan is expensive; 3) scenarios where cellular (e.g., 4G) or WiFi networks are not well covered and 4) scenarios where local communications and Internet communications needs collaboration.
 
-Meshee主要在需要节省流量费用或蜂窝（例如4G）网络不发达的场景下使用。当在400米范围内有一定数量的终端存在时，Meshee技术支持这些终端组成Meshee网络，任意两个终端之间可以通过这个Meshee网络进行高速网络通信，且不使用蜂窝流量。Meshee网络中的通信信息不通过Internet cloud 服务器，具有天然的隐私优势。
-*	Meshee API现阶段适用于Android终端（>=Android API 21），IOS、windows终端待开发。
-*	Meshee API基于自主开发的Meshee网络与通信协议，提供了基于本地Meshee网络的网络服务功能。这些功能在如下两个阶段进行使用:
-	*	Pre-communication阶段：在还未进行Meshee网络通信前，创建、发现、加入Meshee网络。
-	*	In-communication阶段：在一个形成的Meshee网络中进行交互数据，数据形式可以为文字，图片，文件，流媒体等。
-*	Meshee API提供全面的通信服务接口，包括用于通信的Contact、Conversation、Message（包括文字、图片、自定义类型）、File、流媒体等。利用以上接口，开发者可以方便实现各种本地通信场景，例如：
-	*	视频分享 - 在Meshee网络上分享各种视频，支持http-flv格式，其它格式待开发。
-	*	文件分享 - 在Meshee网络上轻松实现大容量文件传输功能。
-	*	多人游戏 - 使用自定义消息类型实现游戏用消息类型扩展。
-	*	社交聊天/协作办公 - 结合文字，图片，文件的消息类型组合实现社交聊天/协作办公的需求。
-  
-#	Meshee的特点
+When terminals are distributed over a large area, Meshee technology supports them to form a Meshee network. Without using cellular traffic, any two terminals can communicate with each other at high speed through the Meshee network. Communication in Meshee networks does not pass through Internet servers and therefore has privacy advantage naturally.
+*	Meshee API is now applicable to Android (>= Android 21), IOS, linux, Windows and Linux version are in development.
+*	Meshee API is based on self-developed Meshee networking and communications protocol, providing local Meshee networking service. The service works in the following two phases.
+	*	Pre-communication phase：Create, discover and join Meshee networks before communication.
+	*	In-communication phase：Exchange data, e.g., text, image, file and live stream in a formed Meshee network.
+*	Meshee API privides all sorts of communications services, including Contact, Conversation, Message (e.g., text, image, customized type, File and live stream). Leveraging the aforementioned services, developers can develop local communication applications easily, such as:
+	*	Live sharing - Sharing live stream from the Internet in Meshee networks. Currently http-flv format is supported, and the other formats are in development.
+	*	File sharing - Easy transferring large-size file in Meshee networks.
+	*	Goup game - Use customized message to develop all sorts of messaging for multi-people games.
+	*	Social chat/collabtive work - Combine text, image and file messaging to achieve social chat/collabtive work.
 
-Meshee具有如下特点：
-*	网络覆盖面积大 – Meshee网络底层传输基于WiFi构建，网络直径最大可达400米。
-*	网络终端数量多 – 一个Meshee网络最多可以容纳~100台终端。
-*	传输带宽大 – 网络中任意两点的最大传输带宽可达~100Mbps。
-*	Meshee网络与蜂窝网络同时使用 – 终端在使用Meshee网络时，可以同时使用蜂窝网络连接Internet。
-*	多路传输 – Meshee网络通信协议动态分配带宽给同时并发的多路传输，保证多路传输的公平性。
-*	接入能力强大 – 当蜂窝网络可用时，终端可以使用极小的蜂窝网络流量获得Meshee网络接入点信息进行接入，以提高终端接入Meshee网络的能力。
-*	通信消息格式扩展 – 针对不同的应用需求，Meshee支持针对各种文本、多媒体通信格式的快速扩展。
+#	Meshee features
+Meshee has the following features.
+*	Cross-OS platforms - Meshee is software middleware, which can provide cross-platform communication services.
+*	Large network coverage - The underlying transferring layer of Meshee is WiFi, which makes network coverage as large as 400 meters.
+*	Large number or terminals in a Meshee network - a single Meshee network can connect ~100 terminals.
+*	Large bandwidth - Communication bandwidth between any two terminals in a Meshee network can reach ~100Mbps.
+*	Simulataneous use of Meshee network and cellular network - A terminal can use both Meshee networks and cellular network at the same time.
+*	Multi-path transfering - Meshee networking and communications protocol can dynamically allocate bandwidth for multi-path transferring with load-balancing and fairness.
+*	Resilient access - While the Internet vai 4G/WiFi is available,  terminals can use negeliable Internet traffic to obtain access information of Meshee networks, thereby improving accessing capability of Meshee networks significantly.
+*	Communications format extension - Aiming different application requirements, Meshee supports fast extension of all sorts of multimedia communications format.
