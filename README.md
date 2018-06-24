@@ -22,3 +22,7 @@ Meshee has the following features.
 *	Multi-path transfering - Meshee networking and communications protocol can dynamically allocate bandwidth for multi-path transferring with load-balancing and fairness.
 *	Resilient access - While the Internet vai 4G/WiFi is available,  terminals can use negeliable Internet traffic to obtain access information of Meshee networks, thereby improving accessing capability of Meshee networks significantly.
 *	Communications format extension - Aiming different application requirements, Meshee supports fast extension of all sorts of multimedia communications format.
+
+
+#	Example
+An open-source App example "freeChat" based on Meshee SDK is provided. Please visit https://github.com/Meshee/freeChat.
