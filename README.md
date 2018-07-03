@@ -18,9 +18,9 @@ Meshee has the following features.
 *	Large network coverage - The underlying transferring layer of Meshee is WiFi, which makes network coverage as large as 400 meters.
 *	Large number or terminals in a Meshee network - a single Meshee network can connect ~100 terminals.
 *	Large bandwidth - Communication bandwidth between any two terminals in a Meshee network can reach ~100Mbps.
-*	Simulataneous use of Meshee network and cellular network - A terminal can use both Meshee networks and cellular network at the same time.
-*	Multi-path transfering - Meshee networking and communications protocol can dynamically allocate bandwidth for multi-path transferring with load-balancing and fairness.
-*	Resilient access - While the Internet vai 4G/WiFi is available,  terminals can use negeliable Internet traffic to obtain access information of Meshee networks, thereby improving accessing capability of Meshee networks significantly.
+*	Simultaneous use of Meshee network and cellular network - A terminal can use both Meshee networks and cellular network at the same time.
+*	Multi-path transferring - Meshee networking and communications protocol can dynamically allocate bandwidth for multi-path transferring with load-balancing and fairness.
+*	Resilient access - While the Internet vai 4G/WiFi is available,  terminals can use negligible Internet traffic to obtain access information of Meshee networks, thereby improving accessing capability of Meshee networks significantly.
 *	Communications format extension - Aiming different application requirements, Meshee supports fast extension of all sorts of multimedia communications format.
 
 
